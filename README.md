@@ -2,9 +2,9 @@
 This is a project to predict the views on a car marketplace website and try to classify the tier of each car. <br />
 
 First question, based on the data could I predict the tier of each car?  There are three tiers: Basic, Plus, Premium.<br />
-This is the plot about the distribution of the car tier.
+This is the plot about the distribution of the car tier: <br />
 <img src = "https://github.com/ChunYu-Lee/Car_Marketplace_Web_Analysis/blob/main/data_distribution_plots/tier_pie_chart.png" width="350" height="250"> <br />
-This is price and car tier distribution.
+This is price and car tier distribution: <br />
 <img src = "https://github.com/ChunYu-Lee/Car_Marketplace_Web_Analysis/blob/main/data_distribution_plots/price_tier.png" width ="350" height = "250"> <br />
 The reason why I pick BalancedRandomForest model is because this dataset has imbalance issue and high dimensions. Random Forest has the class weight parameter, bootstrap to avoid the imbalance issue and increase randomized and it is not hard to train with high dimensions dataset. Unlike SVM or KNN. Also, it performs well in Random Forest than Naive Bayes in this dataset. <br />
 
